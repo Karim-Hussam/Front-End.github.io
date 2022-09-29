@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand bold-links" href="#">BILLO.</a>
+
+            <!-- Toggle Button for Mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#Features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#Reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#Blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bold-links" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="Home" class="bg-cover hero-section justify-content-center align-items-center"
+        style="background-image: url(BilloPro-main/img/cover_1.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="justify-content-center align-items-center">
+                <div class="col-12">
+                    <h1 class="display-4" data-aos="fade-up">We Design
+                        Remarkable and <br> Stunning Bootstrap Websites
+                    </h1>
+                    <p class="my-4" data-aos="zoom-in-down">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos sunt a,
+                        voluptatem
+                        consequatur fugit perspiciatis nulla labore <br> commodi maiores id sapiente dignissimos,
+                        aliquam
+                        quisquam architecto. Nostrum non a nulla ad.</p>
+                    <a href="#" data-aos="fade-up" class="btn btn-main bold-links">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="Services" class="text-center">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-12 section-intro text-center mb-5" data-aos="fade-right">
+                    <h1>Our Services</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti
+                        labore perspiciatis
+                        nam facere quia nobis vel aspernatur <br> voluptatibus amet, eligendi aut rerum quam laboriosam
+                        velit. Magni explicabo est in?</p>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row justify-content-md-center">
+                <div class="col-md-6 col-lg-4 overflow-auto" data-aos="zoom-in-left">
+                    <div class="service gx-5">
+                        <div class="service-img">
+                            <img class="card-img" src="BilloPro-main/img/image_1.jpg" alt="">
+                            <div class="icon">
+                                <i class="bi bi-card-heading"></i>
+                            </div>
+                            <h5 class="mt-5 pt-3">01. Graphics Designing</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut repellat rerum error
+                                similique temporibus aliquam excepturi maiores, molestiae consectetur sint laboriosam
+                                blanditiis, inventore obcaecati unde nam ex? Vel, vitae in!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="service">
+                        <div class="service-img">
+                            <img class="card-img" src="BilloPro-main/img/image_2.jpg" alt="">
+                            <div class="icon">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <h5 class="mt-5 pt-3">02. Content Writing</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut repellat rerum error
+                                similique temporibus aliquam excepturi maiores, molestiae consectetur sint laboriosam
+                                blanditiis, inventore obcaecati unde nam ex? Vel, vitae in!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="service">
+                        <div class="service-img">
+                            <img class="card-img" src="BilloPro-main/img/image_3.jpg" alt="">
+                            <div class="icon">
+                                <i class="bi bi-pen-fill"></i>
+                            </div>
+                            <h5 class="mt-5 pt-3">03. UI/UX Designing</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut repellat rerum error
+                                similique temporibus aliquam excepturi maiores, molestiae consectetur sint laboriosam
+                                blanditiis, inventore obcaecati unde nam ex? Vel, vitae in!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="About" class="bg-cover" style="background-image: url(BilloPro-main/img/cover_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-right">
+                    <h1>Watch Our Video</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti labore perspiciatis
+                        nam facere quia nobis vel aspernatur <br> voluptatibus amet, eligendi aut rerum quam laboriosam
+                        velit. Magni explicabo est in?</p>
+                    <a href="#" class="video-btn"><i class="bi bi-play-fill play-video-i"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="Features" class="text-center">
+        <div class="container">
+            <div class="row" data-aos="fade-right">
+                <div class="col-12 section-intro text-center mb-5">
+                    <h1>Our Features</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti labore perspiciatis
+                        nam facere quia nobis vel aspernatur <br> voluptatibus amet, eligendi aut rerum quam laboriosam
+                        velit. Magni explicabo est in?</p>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row pb-5">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="features">
+                        <div class="icon">
+                            <i class="bi bi-rulers"></i>
+                        </div>
+                        <h5>24/7 Hours Support</h5>
+                        <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ducimus assumenda fugit quaerat illum porro omnis dolorum consectetur aliquam ipsum
+                            odio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="features">
+                        <div class="icon">
+                            <i class="bi bi-scissors"></i>
+                        </div>
+                        <h5>Fully Responsive</h5>
+                        <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ducimus assumenda fugit quaerat illum porro omnis dolorum consectetur aliquam ipsum
+                            odio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="features">
+                        <div class="icon">
+                            <i class="bi bi-newspaper"></i>
+                        </div>
+                        <h5>Well Documented</h5>
+                        <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ducimus assumenda fugit quaerat illum porro omnis dolorum consectetur aliquam ipsum
+                            odio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="features">
+                        <div class="icon">
+                            <i class="bi bi-play-btn"></i>
+                        </div>
+                        <h5>Videography</h5>
+                        <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ducimus assumenda fugit quaerat illum porro omnis dolorum consectetur aliquam ipsum
+                            odio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="features">
+                        <div class="icon">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <h5>Clean coded</h5>
+                        <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ducimus assumenda fugit quaerat illum porro omnis dolorum consectetur aliquam ipsum
+                            odio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="features">
+                        <div class="icon">
+                            <i class="bi bi-card-heading"></i>
+                        </div>
+                        <h5>Responsive</h5>
+                        <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ducimus assumenda fugit quaerat illum porro omnis dolorum consectetur aliquam ipsum
+                            odio
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counters -->
+    <section class="bg-cover Counter" style="background-image: url(BilloPro-main/img/cover_2.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row gy-4">
+                <div class="icon col-md-3" data-aos="zoom-in-down">
+                    <i class="bi bi-trophy"></i>
+                    <h1 class="mt-2">45,00</h1>
+                    <p>Awards Won</p>
+                </div>
+                <div class="icon col-md-3" data-aos="zoom-in-up">
+                    <i class="bi bi-camera"></i>
+                    <h1 class="mt-2">120k</h1>
+                    <p>Pictures Taken</p>
+                </div>
+                <div class="icon col-md-3" data-aos="zoom-in-down">
+                    <i class="bi bi-emoji-smile"></i>
+                    <h1 class="mt-2">30M+</h1>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="icon col-md-3" data-aos="zoom-in-up">
+                    <i class="bi bi-brush"></i>
+                    <h1 class="mt-2">4,005</h1>
+                    <p>Themes Designed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="Reviews" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center mb-5" data-aos="fade-right">
+                    <h1>Testimonials</h1>
+                    <div class=" divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti labore perspiciatis
+                        nam facere quia nobis vel aspernatur <br> voluptatibus amet, eligendi aut rerum quam laboriosam
+                        velit. Magni explicabo est in?</p>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row pb-5 gx-4 gy-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="reviews">
+                        <div class="person pb-3">
+                            <img src="BilloPro-main/img/avatar_1.jpg" alt="avatar_1">
+                            <div class="text ms-3">
+                                <h6 class="m-0">John Walker</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid,
+                            fuga. Id nam,
+                            laudantium ipsa, ratione impedit neque quia dolorem aliquid.</p>
+                        <div class="text-start p-0">
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="reviews">
+                        <div class="person pb-3">
+                            <img src="BilloPro-main/img/avatar_2.jpg" alt="avatar_2">
+                            <div class="text ms-3">
+                                <h6 class="m-0">John Walker</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid,
+                            fuga. Id nam,
+                            laudantium ipsa, ratione impedit neque quia dolorem aliquid.</p>
+                        <div class="text-start p-0">
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="reviews">
+                        <div class="person pb-3">
+                            <img src="BilloPro-main/img/avatar_3.jpg" alt="avatar_3">
+                            <div class="text ms-3">
+                                <h6 class="m-0">John Walker</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid,
+                            fuga. Id nam,
+                            laudantium ipsa, ratione impedit neque quia dolorem aliquid.</p>
+                        <div class="text-start p-0">
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="reviews">
+                        <div class="person pb-3">
+                            <img src="BilloPro-main/img/avatar_3.jpg" alt="avatar_3">
+                            <div class="text ms-3">
+                                <h6 class="m-0">John Walker</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid,
+                            fuga. Id nam,
+                            laudantium ipsa, ratione impedit neque quia dolorem aliquid.</p>
+                        <div class="text-start p-0">
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="reviews">
+                        <div class="person pb-3">
+                            <img src="BilloPro-main/img/avatar_1.jpg" alt="avatar_1">
+                            <div class="text ms-3">
+                                <h6 class="m-0">John Walker</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid,
+                            fuga. Id nam,
+                            laudantium ipsa, ratione impedit neque quia dolorem aliquid.</p>
+                        <div class="text-start p-0">
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="reviews">
+                        <div class="person pb-3">
+                            <img src="BilloPro-main/img/avatar_2.jpg" alt="avatar_2">
+                            <div class="text ms-3">
+                                <h6 class="m-0">John Walker</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-3 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquid,
+                            fuga. Id nam,
+                            laudantium ipsa, ratione impedit neque quia dolorem aliquid.</p>
+                        <div class="text-start p-0">
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                            <i class="bi bi-star-fill star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="Blog" class="bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center mb-5" data-aos="fade-right">
+                    <h1>Our Blog Posts</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti labore perspiciatis
+                        nam facere quia nobis vel aspernatur <br> voluptatibus amet, eligendi aut rerum quam laboriosam
+                        velit. Magni explicabo est in?</p>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row pb-5 gx-4 gy-4 text-start justify-content-md-center">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="blog">
+                        <img class="card-img" src="BilloPro-main/img/blog_post1.png" alt="#">
+                        <div class="pt-4">
+                            <small>Posted in <a class="strong">Web Design,</a> 12 Dec 2055</small>
+                            <a class="website" href="#">Website design in 2055</a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, enim.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-down">
+                    <div class="blog">
+                        <img class="card-img" src="BilloPro-main/img/blog_post2.png" alt="#">
+                        <div class="pt-4">
+                            <small>Posted in <a class="strong">Web Design,</a> 12 Dec 2055</small>
+                            <a class="website" href="#">Website design in 2055</a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, enim.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in-up">
+                    <div class="blog">
+                        <img class="card-img" src="BilloPro-main/img/blog_post3.png" alt="#">
+                        <div class="pt-4">
+                            <small>Posted in <a class="strong">Web Design,</a> 12 Dec 2055</small>
+                            <a class="website" href="#">Website design in 2055</a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="Contact" class="bg-cover" style="background-image: url(BilloPro-main/img/cover_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12 section-intro" data-aos="zoom-in-up">
+                    <h1>Get in Touch</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti labore perspiciatis
+                        nam facere quia nobis vel aspernatur <br> voluptatibus amet, eligendi aut rerum quam laboriosam
+                        velit. Magni explicabo est in?</p>
+                </div>
+            </div>
+            <div class="row justify-content-md-center pt-5">
+                <div class="col-md-8">
+                    <form action="#" class="row g-4">
+                        <div class="form-group col-md-6">
+                            <input class="form-control" type="text" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input class="form-control" type="email" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input class="form-control" type="text" placeholder="Subject">
+                        </div>
+                        <div class="from-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="text-center pt-4">
+                            <button data-aos="zoom-in-down" class="btn btn-main bold-links" type="submit">Send
+                                Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coptrights -->
+    <footer class="p-3">
+        <div class="containter">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">Copyrights @ 2020-2022. Designed by <a class="My-name" href="#">Karim Hussam</a></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div>
+                        <a href="https://www.facebook.com/danger.karim.54/" target="_blank"><i
+                                class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://dribbble.com/" target="_blank"><i class='bx bxl-dribbble'></i></a>
+                        <a href="https://www.instagram.com/karim.hossam_xiv/" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Karim-Hussam" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
