@@ -70,7 +70,7 @@ img {
     top: 60px;
     left: 120px;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: fixed;
 }
 
 .showcase-top a {
