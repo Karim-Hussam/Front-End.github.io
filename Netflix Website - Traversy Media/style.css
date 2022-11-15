@@ -353,7 +353,7 @@ img {
     }
 
     .text-xl {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .text-lg {
@@ -382,5 +382,30 @@ img {
 
     #tab-2-content .tab-2-content-bottom {
         grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 450px) {
+    .showcase-content h1 {
+        font-size: 2.3rem;
+        line-height: 1;
+    }
+
+    .showcase-top a {
+        top: 30px;
+        right: 20px;
+    }
+
+    .showcase-content p {
+        font-size: 1.1rem;
+    }
+
+    .btn-xl {
+        font-size: 1rem;
+        padding: 1.4rem 2rem;
+    }
+
+    .showcase {
+        height: 87.2vh;
     }
 }
