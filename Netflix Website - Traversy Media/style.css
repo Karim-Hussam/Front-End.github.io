@@ -70,11 +70,11 @@ img {
     top: 60px;
     left: 120px;
     transform: translate(-50%, -50%);
-    position: fixed;
+    position: absolute;
 }
 
 .showcase-top a {
-    position: fixed;
+    position: absolute;
     top: 40px;
     right: 50px;
 }
@@ -406,6 +406,10 @@ img {
     }
 
     .showcase {
-        height: 87.2vh;
+        height: 100vh;
+    }
+
+    .showcase-content {
+        margin-top: 40%;
     }
 }
