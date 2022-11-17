@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/* Small Navbar */
+.small-navbar {
+    background-color: #ff4d29;
+}
+
+.small-navbar p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    background-color: white;
+    transition: all 0.5s ease;
+    color: #ff4d29;
+}
+
+.small-navbar i {
+    transform: translateY(2px);
+    padding-right: 2px;
+}
+
+
+/* Main Navbar */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.navbar-brand span {
+    color: #ff4d29;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ff4d29;
+}
+
+
+/* BTN */
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: white;
+}
+
+.btn-brand:hover {
+    background-color: #f12800 !important;
+    color: white !important;
+}
+
+
+/* Slider */
+.bg-cover {
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.slide-1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.8)), url(../Prixima-main/img/bg_banner1.jpg);
+    left: 300px !important;
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.8)), url(../Prixima-main/img/bg_banner2.jpg);
+}
+
+
+/* Own Carousel */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    width: 50px;
+    height: 50px;
+    font-size: 13px !important;
+    margin-top: -25px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-radius: 40% !important;
+}
+
+.owl-prev {
+    left: 0%;
+}
+
+.owl-next {
+    right: 0%;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background-color: #ff4d29 !important;
+    transition: all 0.2s ease;
+}
+
+
+/* Info Box */
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-box img {
+    width: 90px;
+    margin-right: 24px;
+}
+
+
+/* Milestone */
+#Milestone {
+    background: linear-gradient(rgba(255, 77, 41, 0.9), rgba(255, 77, 41, 0.9)), url(../Prixima-main/img/bg_banner2.jpg);
+}
+
+#Milestone .display-4,
+#Milestone p {
+    color: #fff;
+}
+
+#Milestone .display-4 {
+    font-weight: 700;
+}
+
+
+/* Services */
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 400;
+    color: #ff4d29;
+    text-transform: uppercase;
+}
+
+.intro h1 {
+    color: #000;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img {
+    width: unset;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+/* Project */
+.project {
+    position: relative;
+}
+
+.project .overlay {
+    background: linear-gradient(to bottom, rgba(9, 32, 50, 0.0), rgba(9, 32, 50, 0.9));
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+}
+
+.project .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 28px;
+}
+
+.project h1,
+.project p {
+    color: #fff;
+}
+
+.project p {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.project p::before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: #ff4d29;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+/* Team */
+.team-member {
+    text-align: center;
+}
+
+.team-member .img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member .overlay {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 77, 41, 0.8);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member .social-links {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .overlay {
+    opacity: 1;
+    top: 0;
+}
+
+.team-member:hover .social-links {
+    opacity: 1;
+    top: 50%;
+}
+
+.team-member h5 {
+    margin-top: 24px;
+}
+
+/* Reviews */
+#Reviews {
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)), url(../Prixima-main/img/bg_banner1.jpg) fixed;
+}
+
+.review {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.review img {
+    width: 85px !important;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.review h4 {
+    margin-top: 16px;
+}
+
+.review h4,
+.review p {
+    color: #fff;
+}
+
+.review small {
+    color: #ff4d29;
+}
+
+.review p {
+    margin-top: 20px;
+}
+
+.owl-dot.active span {
+    background-color: #ff4d29 !important;
+}
+
+/* Blogs */
+.blog-post {
+    position: relative;
+}
+
+.blog-post .tag {
+    padding: 5px 12px;
+    background-color: #ff4d29;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 120px;
+    top: 5%;
+    left: 4.5%;
+    position: absolute;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.blog-post .tag:hover {
+    color: #ff4d29;
+    background-color: #fff;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.blog-post h4 a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.blog-post h4 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.blog-post h4 a:hover {
+    color: #fff;
+    text-shadow: 1px 0 #ff4d29, -1px 0 #ff4d29, 0 1px #ff4d29, 0 -1px #ff4d29,
+    1px 1px #ff4d29, -1px -1px #ff4d29, 1px -1px #ff4d29, -1px 1px #ff4d29;
+}
+
+.blog-post img {
+    margin-bottom: 12px;
+}
+
+.blog-post small {
+    color: #ff4d29;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(rgba(9, 32, 50, 0.75), rgba(9, 32, 50, 0.9)), url(../Prixima-main/img/project4.jpg);
+    padding-top: 80px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+footer .navbar-brand {
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 77, 41, 0.5);
+    padding-top: 15px;
+}
+
+/* Modal */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ff4d29;
+}
+
+.modal-body h1 {
+    color: #000;
+}
+
+.My-name {
+    text-decoration: none;
+    transition: color 0.5s ease;
+    display: inline;
+    font-size: 15px;
+    font-weight: 800 !important;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.My-name:hover {
+    color: #ff4d29;
+    text-shadow: 0.7px 0 #fff, -0.7px 0 #fff, 0 0.7px #fff, 0 -0.7px #fff,
+    0.7px 0.7px #fff, -0.7px -0.7px #fff, 0.7px -0.7px #fff, -0.7px 0.7px #fff;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #About .about-img {
+        width: 70%;
+    }
+}
