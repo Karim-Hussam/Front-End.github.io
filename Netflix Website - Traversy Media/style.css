@@ -245,7 +245,7 @@ img {
 
 /* Container */
 .container {
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
@@ -400,9 +400,18 @@ img {
         font-size: 1.1rem;
     }
 
-    .btn-xl {
+    .text-lg {
+        font-size: 1.1rem;
+    }
+
+    .btn-lg {
         font-size: 1rem;
-        padding: 1.4rem 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .btn-xl {
+        font-size: 0.9rem;
+        padding: 1rem 1.5rem;
     }
 
     .showcase {
@@ -411,5 +420,75 @@ img {
 
     .showcase-content {
         margin-top: 40%;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+    .tab-item {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 380px) {
+    .showcase-content h1 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .showcase-content p {
+        font-size: 1rem;
+    }
+
+    .btn-lg {
+        font-size: 0.8rem;
+        padding: 1rem 1rem;
+    }
+
+    .btn-xl {
+        font-size: 0.8rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .table {
+        font-size: 10px;
+    }
+
+    .tab-item {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 325px) {
+    .showcase-content h1 {
+        font-size: 1.7rem;
+        line-height: 1;
+    }
+
+    .showcase-content p {
+        font-size: 0.9rem;
+    }
+
+    .table {
+        font-size: 6px;
+    }
+
+    .btn-xl {
+        font-size: 0.7rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .btn-lg {
+        font-size: 0.7rem;
+        padding: 0.8rem 1.3rem;
+    }
+
+    .tab-item {
+        font-size: 10px;
+    }
+
+    .text-lg {
+        font-size: 1.1rem;
     }
 }
