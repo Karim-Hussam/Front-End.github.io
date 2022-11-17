@@ -314,6 +314,27 @@ img {
     margin-left: 1rem;
 }
 
+.footer-bottom {
+    border-top: 1px solid var(--primary-color);
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.footer-bottom .container {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.My-name {
+    display: inline !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    transition: all 0.2s ease !important;
+}
+
+.My-name:hover {
+    color: #e50914 !important;
+}
 
 @media(max-width: 960px) {
     .showcase {
