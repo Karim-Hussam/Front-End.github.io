@@ -154,7 +154,7 @@ section {
 #Menu .nav-pills .nav-link.active {
     background-color: #f58d17;
     transform: translateY(-4px);
-    color: #fff; 
+    color: #fff;
 }
 
 .menu-item .stars {
@@ -210,7 +210,7 @@ section {
     border-radius: 85px;
 }
 
-/* Reservations */
+/* Reviews */
 #Reviews {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/cover3.jpg);
     padding-top: 120px;
@@ -353,7 +353,7 @@ footer img {
 
 
 /* Media Queries */
-@media(max-width: 500px) and (min-width: 426px){
+@media(max-width: 500px) and (min-width: 426px) {
     #Menu .nav-pills .nav-link {
         transform: scale(0.98);
         margin-left: 5px;
@@ -366,7 +366,7 @@ footer img {
     }
 }
 
-@media(max-width: 425px) and (min-width: 300px){
+@media(max-width: 425px) and (min-width: 300px) {
     #Menu .nav-pills .nav-link {
         transform: scale(0.9);
         margin-right: 20.1px;
@@ -389,5 +389,13 @@ footer img {
 
     .blog-post img {
         width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
     }
 }
